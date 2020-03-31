@@ -1,0 +1,37 @@
+/*Inicio Link*/
+.card-sano-de-lucas a.active:link{
+	font-family:$title-font-firaSans;
+	color:$primary!important;
+	font-size:$x-large!important;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	&:hover{
+		color:$light!important;
+		font-size:$x-large!important;
+		text-decoration: none;
+	}
+	&:active{
+		color:$light!important;
+		font-size:$x-large!important;
+		text-decoration: none;
+	}
+}
+
+.card-sano-de-lucas a{
+	font-family:$title-font-firaSans;
+	color:$white!important;
+	font-size:$x-large!important;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	&:hover{
+		color:$light!important;
+		font-size:$x-large!important;
+		text-decoration: none;
+	}
+	&:active{
+		color:$light!important;
+		font-size:$x-large!important;
+		text-decoration: none;
+	}
+}
+/*Cierre de Link*/

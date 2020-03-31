@@ -1,0 +1,65 @@
+.contenedor-sano-de-lucas{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-sano-de-lucas.card {
+	border:none;
+	margin:$margin-10;
+	  @include breakpoint(xs) {
+	    width: 100%;
+	  }
+	  @include breakpoint(sm) {
+	    width: 100%;
+	  }
+	  @include breakpoint(md) {
+	    width: 45%;
+	  }
+	  @include breakpoint(lg) {
+	    width: 33%;
+	  }
+}
+
+.card-sano-de-lucas .card-header{
+	width: 100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin:0;
+	padding:0;
+	border:none;
+	border-radius: 5px 5px 0 0;
+}
+
+.card-sano-de-lucas .card-header::before{
+	content:'';
+	width: 100%;
+	height: 66px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+	background: url('../img/iconos.svg');
+	background-repeat:no-repeat;
+	background-position: right bottom;
+}
+
+.card-sano-de-lucas .card-header::after{
+	content:'';
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	border-radius: 5px 5px 0 0;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+1,000000+100&0.65+0,0+100 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.64) 1%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.64) 1%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.64) 1%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
